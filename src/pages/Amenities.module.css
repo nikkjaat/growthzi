@@ -1,7 +1,7 @@
 .container {
   background-color: aliceblue;
   color: #1e1e1e;
-  /* padding: 0 6em; */
+  padding: 0 6em;
   position: relative;
   border: 1px solid transparent;
 }
