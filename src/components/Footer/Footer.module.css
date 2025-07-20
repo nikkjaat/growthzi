@@ -1,0 +1,138 @@
+.footer {
+  background-color: #262424;
+  color: white;
+  padding: 4em 2em 2em;
+  font-family: sans-serif;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  width: 40px;
+  height: 50px;
+  background: linear-gradient(to bottom, #a97d45, #d0aa7e);
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.brandText h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.brandText p {
+  font-size: 0.8rem;
+  color: #ccc;
+  margin: 0;
+}
+
+.description {
+  color: #bbb;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.linkHeading {
+  color: #c7965f;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 0.6rem;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.subscribeText {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+}
+
+.subscribeForm {
+  display: flex;
+  border: 1px solid #3c3c3c;
+  background-color: #1f1f1f;
+}
+
+.subscribeForm input {
+  padding: 0.5rem 0.75rem;
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.subscribeForm button {
+  background-color: #a97d45;
+  border: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.divider hr {
+  margin: 2em 0;
+  width: 40%;
+  border: none;
+  height: 1px;
+  background-color: #444;
+}
+
+.bottomSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+
+.policy {
+  display: flex;
+  gap: 1.5rem;
+  color: #aaa;
+}

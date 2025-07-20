@@ -1,0 +1,102 @@
+.container {
+  background-color: aliceblue;
+  color: #1e1e1e;
+  /* padding: 0 6em; */
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.container hr {
+  height: 3px;
+  background-color: #a58256;
+  transform: rotate(90deg);
+  margin: 7em 0;
+  width: 6em;
+  position: relative;
+  left: -2.8em;
+}
+
+.content {
+  position: relative;
+}
+
+.content > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4em;
+  position: relative;
+}
+
+.subheading {
+  color: #a58256;
+  letter-spacing: 3px;
+}
+
+.heading {
+  letter-spacing: 2px;
+}
+
+.introText {
+  width: 50%;
+  position: relative;
+  top: 4em;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.serviceCard {
+  flex: 1 1 50%;
+  padding: 3rem;
+  min-height: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.serviceCard:nth-child(2) {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.serviceCard:nth-child(3) {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.serviceDescription {
+  font-size: 1rem;
+  color: inherit;
+  margin-bottom: 2rem;
+}
+
+.discoverButton {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  color: #bf9766;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #bf9766;
+  transition: all 0.3s ease;
+}
+
+.discoverButton:hover {
+  color: #a58256;
+  border-color: #a58256;
+}

@@ -1,0 +1,217 @@
+.container {
+}
+
+.carousel {
+  height: 465px;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #4a4a4a 0%,
+    #717171 20%,
+    #868686 40%,
+    #9d9d9d 50%,
+    #868686 60%,
+    #717171 80%,
+    #4a4a4a 100%
+  );
+  border: 2px solid transparent;
+  padding: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel svg {
+  cursor: pointer;
+}
+
+.contentContainer {
+  display: flex;
+  color: #4a4a4a;
+  gap: 1em;
+  padding: 1em 3em 0;
+  margin: 7em 5em 2em;
+}
+
+.contentContainer > :first-child {
+  flex: 1 1 60%;
+}
+
+.contentContainer > :last-child {
+  flex: 1 1 40%;
+}
+
+.contentContainer > :first-child h1 {
+  font-weight: lighter;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  margin-bottom: 1em;
+}
+
+.contentContainer > :first-child > p {
+  margin-bottom: 1.4em;
+}
+
+.checkInOut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.checkInOut > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+  gap: 1em;
+}
+
+.checkInOut > div svg {
+  color: #bf9766;
+}
+
+.roomAmetities h2 {
+  font-weight: lighter;
+  margin-bottom: 1em;
+  letter-spacing: 4px;
+}
+
+.roomDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  align-items: center;
+}
+
+.roomDetails span {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  width: 10em;
+}
+
+.offers > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers > div div {
+  display: grid;
+  gap: 1em;
+}
+
+.offers > div > div p {
+  display: flex;
+  align-items: center;
+}
+
+.rules h2 {
+  margin-top: 2em;
+}
+
+.rules > div {
+  display: grid;
+  gap: 1em;
+}
+
+.rules > div p {
+  display: flex;
+  align-items: center;
+}
+
+.rightContainer {
+  background-color: #4a4a4a;
+  color: white;
+  padding: 4em;
+}
+
+.rightContainer h2 {
+  font-weight: lighter;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.rightContainer > div div p {
+  font-size: 1.2em;
+}
+
+.checkInOutDate {
+  background-color: #717171;
+  margin: 1em 0;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f6a23d;
+}
+
+.roomGuest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roomGuest select {
+  width: 8em;
+  height: 3em;
+  padding: 1em;
+}
+
+.room,
+.guest {
+  display: grid;
+  gap: 1em;
+}
+
+.checkAvailability {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  color: #f6a23d;
+}
+
+.extraService h3 {
+  font-weight: lighter;
+  font-weight: 1em;
+}
+
+.services {
+  display: grid;
+  gap: 1em;
+  font-size: 1.2em;
+  align-items: center;
+}
+
+.services div {
+  display: flex;
+  gap: 1em;
+}
+
+.services input {
+  width: 2em;
+}
+
+.totalCost {
+  margin: 2em;
+}
+
+.totalCost span {
+  color: #f6a23d;
+}
+
+.bookNow {
+  width: 40%;
+  display: grid;
+  margin: auto;
+  text-align: center;
+  gap: 1em;
+}
+
+.bookNow p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
